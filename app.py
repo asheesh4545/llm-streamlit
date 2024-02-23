@@ -10,7 +10,7 @@ import sys
 # Assume PyPDFLoader, Docx2txtLoader, and TextLoader are defined elsewhere or replace them with actual implementations
 
 
-#os.environ["OPENAI_API_KEY"]="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"
+
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 def process_pdf(file_path):
